@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "required": [
+    "order_id",
+    "order_description",
+    "order_status",
+    "last_updated_timestamp",
+    "special_order"
+  ],
+  "properties": {
+    "order_id": {
+      "type": "integer"
+    },
+    "order_description": {
+      "type": "string"
+    },
+    "order_status": {
+      "type": "string"
+    },
+    "last_updated_timestamp": {
+      "type": "integer"
+    },
+    "special_order": {
+      "type": "boolean"
+    }
+  }
+}
